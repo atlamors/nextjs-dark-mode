@@ -1,0 +1,34 @@
+/* Dark mode theme */
+:root[data-theme='dark'] {
+	--primary-bright:	#ffffff;
+	--primary:			#d9d9d9;
+	--primary-dim:		#666666;
+	--primary-dark:		#202020;
+	--secondary: 		#ffed7f;
+	--secondary-bright: #ffea5f;
+	--background: 		#060708;
+	
+	color-scheme: dark;
+} 
+
+/* Light mode theme */
+:root[data-theme='light'] {
+	--primary-bright:	#000000;
+	--primary: 			#060708;
+	--primary-dim:		#121315;
+	--primary-dark:		#efefef;
+	--secondary: 		#002aff;
+	--secondary-bright:	#4800ff;
+	--background: 		#ededed;
+}
+
+/* Unicorn mode theme */
+:root[data-theme='unicorn'] {
+	--primary-bright:	#000000;
+	--primary: 			#060708;
+	--primary-dim:		#121315;
+	--primary-dark:		#efefef;
+	--secondary: 		#ff00bb;
+	--secondary-bright:	#feff00;
+	--background: 		#ffffff;
+}
