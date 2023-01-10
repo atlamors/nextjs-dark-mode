@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import ThemeToggle from '../components/theme.util'
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -11,7 +10,6 @@ export default function Home() {
       </Head>
 
       <main>
-		<ThemeToggle />
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>

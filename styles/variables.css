@@ -1,4 +1,6 @@
-/* Dark mode theme */
+/*
+ * Dark mode theme 
+ */
 :root[data-theme='dark'] {
 	--primary-bright:	#ffffff;
 	--primary:			#d9d9d9;
@@ -8,10 +10,13 @@
 	--secondary-bright: #ffea5f;
 	--background: 		#060708;
 	
+	/* Asks browser to behave in dark mode */
 	color-scheme: dark;
 } 
 
-/* Light mode theme */
+/*
+ * Light mode theme 
+ */
 :root[data-theme='light'] {
 	--primary-bright:	#000000;
 	--primary: 			#060708;
@@ -22,12 +27,15 @@
 	--background: 		#ededed;
 }
 
-/* Unicorn mode theme */
+
+/*
+ * Unicorn mode theme 
+ */
 :root[data-theme='unicorn'] {
 	--primary-bright:	#000000;
 	--primary: 			#060708;
 	--primary-dim:		#121315;
-	--primary-dark:		#efefef;
+	--primary-dark:		#fffb7d;
 	--secondary: 		#ff00bb;
 	--secondary-bright:	#feff00;
 	--background: 		#ffffff;

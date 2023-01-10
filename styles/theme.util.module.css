@@ -14,16 +14,5 @@
 .toggle	svg {
 	display: block;
 	position: relative;
-}
-
-.toggle[data-theme='light'] svg {
-	fill: #000;
-}
-
-.toggle[data-theme='dark'] svg {
-	fill: #fff;
-}
-
-.toggle[data-theme='unicorn'] svg {
-	fill: #000;
+	fill: var(--primary-bright);
 }
